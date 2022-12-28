@@ -1,4 +1,4 @@
-# Create vpc
+# Create vpc for tarraform
 resource "aws_vpc" "taiwo" {
     cidr_block = var.vpc_cidr
     enable_dns_hostnames = true
